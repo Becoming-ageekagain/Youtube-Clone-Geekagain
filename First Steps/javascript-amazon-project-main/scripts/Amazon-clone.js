@@ -21,7 +21,7 @@ products.forEach( (products)=>{
 productsHTML+=`<div class="product-container">
 <div class="product-image-container">
   <img class="product-image"
-    src="i${products.image}">
+    src="${products.image}">
 </div>
 
 <div class="product-name limit-text-to-2-lines">
