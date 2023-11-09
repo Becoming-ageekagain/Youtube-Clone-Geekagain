@@ -77,7 +77,7 @@ let prodHtml='';
     Added
   </div>
 
-  <button class="add-to-cart-button button-primary">
+  <button class="add-to-cart-button button-primary js-addCart-Button" data-product-name="${product.name}">
     Add to Cart
   </button>
 </div>`;
@@ -85,5 +85,28 @@ let prodHtml='';
 )
 geneHtml.innerHTML=prodHtml;
 
+document.querySelectorAll('.js-addCart-Button').forEach(
+(button)=>
+{
+button.addEventListener('click',()=>{
+let productName=button.dataset.productName;
+let matchingItem;
+cart.forEach((item)=>{
+if(productName===item.productName){
+  matchingItem=item;
+  //item.quantity++;
+}
+})
 
-
+if(matchingItem){
+  matchingItem.quantity++;
+}
+else{
+  cart.push({
+    productName:productName,
+    quantity:1,
+  });
+}
+console.log(cart);
+});
+})
