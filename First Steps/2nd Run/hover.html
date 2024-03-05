@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buttons Hover Exercise-2nd Run</title>
+<style>
+  .subscribeButton {
+  width: 120px;
+  height: 40px;
+  background-color: #dd1313;
+  color: #fff;
+  border-radius: 5px;
+  border:none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  transition: opacity 5s;
+  }
+.joinButton {
+  width: 150px;
+  height: 40px;
+  background-color: #27ae60;
+  color: #fff;
+  border-radius: 8px;
+  border:none;
+  transition: opacity 0.15s;
+  
+  }
+.tweetButton {
+  width: 80px;
+  height: 40px;
+  background-color: #24465c;
+  color: #fff;
+  border-radius: 20px;
+  border:none;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 10px 4px 8px rgba(0,0,0, 0.7);
+}
+.Requestnow-button{
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #000; /* Updated to black */
+  color: #fff; /* Updated to white */
+  border: none;
+  border-radius: 0; /* Removed border-radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.AddtoCart-button {
+  padding: 10px 25px; /* Adjusted padding for width and height */
+  margin: 5px;
+  background-color: #FF9900; /* Amazon yellow */
+  color: #000; /* Black text color */
+  border: none;
+  border-radius: 16px; 
+  transition: background-color 0.3s ease;
+}
+
+.Signup-button {
+  padding: 10px 7px; /* Set height and width */
+  background-color: #0ae40af3; /* Slightly dark green */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+/*Hover Classes*/
+.subscribeButton:hover {
+  background-color: #f52234;
+  cursor: pointer;
+}
+
+
+.joinButton:hover {
+  /*background-color:#fff;
+  color:#27ae60;*/
+  opacity: 0.7;
+}
+
+.tweetButton:hover {
+  background-color: #0e71a4;
+}
+
+.Requestnow-button:hover {
+  /* background-color: #222;  */ /* Darker shade for hover effect */
+  opacity: 0.7; /* Added opacity */
+}
+
+.AddtoCart-button:hover {
+  background-color: #e68a00; /* Slightly darker shade for hover effect */
+  cursor: pointer; /* Set cursor to pointer on hover */
+}
+
+.Signup-button:hover {
+  background-color: #004d00; /* Slightly darker shade for hover effect */
+  cursor: pointer; /* Set cursor to pointer on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow with alpha value of 0.5 on hover */
+}
+
+/*Active Classes*/
+.subscribeButton:active {
+  background-color: #f5223449;
+  
+}
+
+
+</style>   
+</head> 
+<body>
+  <button class="subscribeButton">Subscribe</button>
+  <button class="joinButton">Join Now</button>
+  <button class="tweetButton">Tweet</button>
+  <p>
+    <button class="Requestnow-button">Request now</button>
+    <button class="AddtoCart-button">Add to Cart</button>
+    <button class="Signup-button">Sign up</button>
+  </p>
+
+  <!-- Last three buttons in another paragraph -->
+  <p>
+    <button class="GetStartedDownload-button">Get Started Download</button>
+    <button class="ApplyoncompanyWebsite-button">Apply on company Website</button>
+    <button class="Save-button">Save</button>
+  </p>
+<script>
+</script>
+</body>
+</html>
