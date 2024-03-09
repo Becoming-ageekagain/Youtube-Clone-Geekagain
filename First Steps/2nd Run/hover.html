@@ -65,6 +65,37 @@
   transition: background-color 0.3s ease;
 }
 
+.navigation-para {
+  margin-top: 5px;
+}
+
+.number-inner-content-1,
+.number-inner-content-2,
+.number-inner-content-3,
+.number-inner-content-4,
+.number-inner-content-5 {
+  text-decoration: underline;
+  margin: 7px 5px 0px;
+}
+
+.stretch-button {
+  background-color: #3fdf54;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 12px;
+  transition: padding 0.5s ease; /* Transition for padding */
+  border: none; /* Remove the border */
+}
+
+.text-shadow-button {
+  background-color: green;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 15px 25px; /* Padding values using shorthand */
+  transition: margin 0.2s ease; /* Transition for margin */
+}
+
 
 /*Hover Classes*/
 .subscribeButton:hover {
@@ -99,6 +130,32 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Box shadow with alpha value of 0.5 on hover */
 }
 
+.number-inner-content-1:hover,
+.number-inner-content-2:hover,
+.number-inner-content-3:hover,
+.number-inner-content-4:hover,
+.number-inner-content-5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.stretch-button:hover {
+  background-color:#3fdf54;
+  color: #fff;
+  padding: 30px 50px; /* Updated padding values on hover */
+  font-size: 12px; /* Maintain font size on hover */
+  border: none; /* Remove the border on hover */
+}
+
+.text-shadow-button:active {
+  background-color: green;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 15px 25px; /* Padding values using shorthand */
+  margin: 2px 2px; /* Margin values on active state */
+}
+
 /*Active Classes*/
 .subscribeButton:active {
   background-color: #f5223449;
@@ -120,10 +177,27 @@
 
   <!-- Last three buttons in another paragraph -->
   <p>
-    <button class="GetStartedDownload-button">Get Started Download</button>
+    <button class="GetStarted-button">Get Started</button>
     <button class="ApplyoncompanyWebsite-button">Apply on company Website</button>
     <button class="Save-button">Save</button>
   </p>
+
+  <p class="navigation-para">
+    <button class="back-button">Back</button>
+    <span class="number-inner-content-1">1</span>
+    <span class="number-inner-content-2">2</span>
+    <span class="number-inner-content-3">3</span>
+    <span class="number-inner-content-4">4</span>
+    <span class="number-inner-content-5">5</span>
+    <button class="next-button">Next</button>
+  </p>
+
+  <button class="stretch-button">STRETCH</button>
+  
+  <button class="text-shadow-button">Text Shadow</button>
+
+
+
 <script>
 </script>
 </body>
