@@ -6,3 +6,10 @@
   object-position:center; /* To be defined */;
   margin-left: 50px;
 } 
+
+.search-bar {
+  padding:12px 80px 12px 8px;
+  width: 10%;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
