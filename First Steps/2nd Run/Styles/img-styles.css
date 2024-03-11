@@ -1,0 +1,8 @@
+.sunset-img {
+  width:300px;
+  height: 300px;
+  border-radius: 50% /* To be defined */;
+  object-fit: /* To be defined */;
+  object-position:center; /* To be defined */;
+  margin-left: 50px;
+} 
