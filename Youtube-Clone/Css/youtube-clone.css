@@ -1,0 +1,37 @@
+.video-thumbnail {
+  font-weight: bold;
+  font-family: inherit;
+  display: block;
+  margin: 18px 0px 20px 5px;; 
+  font-size: 18px;
+  width: 250px;
+}
+
+
+.video-title {
+  font-weight: bold; /* Default font weight */
+  font-family: inherit; /* Default font family */
+  display: block; /* Default display property */
+  width: 180px; /* Default width */
+  font-size: 16px; /* Default font size */
+  margin: 18px 0px 10px 5px;; /* Default margin value */
+}
+
+.channel-info {
+  font-weight: normal; /* Default font weight */
+  font-family: inherit; /* Default font family */
+  display: block; /* Default display property */
+  width: auto; /* Default width */
+  font-size: 16px; /* Default font size */
+  margin:18px 0px 10px 5px; /* Default margin value */
+}
+
+.video-statistics {
+  font-weight: normal; /* Default font weight */
+  font-family: inherit; /* Default font family */
+  display: block; /* Default display property */
+  width: auto; /* Default width */
+  font-size: 15px; /* Default font size */
+  margin: 18px 0px 10px 5px; /* Default margin value */
+}
+
