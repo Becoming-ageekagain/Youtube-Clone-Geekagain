@@ -13,3 +13,13 @@
   border: 2px solid lightgrey;
   border-radius: 3px;
 }
+
+.google-search-bar {
+  padding:12px 80px 12px 8px;
+  width: 70%;
+  border: 2px solid lightgrey;
+  border-radius: 50px;
+  margin: 10px 0px 0px 50px;
+  box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.7)
+}
+
