@@ -1,26 +1,19 @@
-.video-thumbnail {
-  font-weight: bold;
-  font-family: inherit;
-  display: block;
-  margin: 18px 0px 20px 5px;; 
-  font-size: 18px;
-  width: 250px;
-}
+
 
 
 .video-title {
   font-weight: bold; /* Default font weight */
   font-family: inherit; /* Default font family */
   display: block; /* Default display property */
-  width: 180px; /* Default width */
+  width: 150px; /* Default width */
   font-size: 16px; /* Default font size */
-  margin: 18px 0px 10px 5px;; /* Default margin value */
+  margin: 18px 0px 5px 0px;; /* Default margin value */
 }
 
 .channel-info {
   font-weight: normal; /* Default font weight */
   font-family: inherit; /* Default font family */
-  display: block; /* Default display property */
+  display: inline-block; /* Default display property */
   width: auto; /* Default width */
   font-size: 16px; /* Default font size */
   margin:18px 0px 10px 5px; /* Default margin value */
@@ -29,9 +22,61 @@
 .video-statistics {
   font-weight: normal; /* Default font weight */
   font-family: inherit; /* Default font family */
-  display: block; /* Default display property */
+  display: inline-block; /* Default display property */
   width: auto; /* Default width */
   font-size: 15px; /* Default font size */
   margin: 18px 0px 10px 5px; /* Default margin value */
 }
+/*Vertical Top div container*/
+.video-container {
+  width:250px;
+  margin: 18px 0px 10px 0px;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid red;
+  /*text-align: center;*/
+}
+
+/*Vertical Top div container/ Image div sub container-1*/
+.image-container{
+  margin: 0px 10px 2px 0px;
+  width: 250px;
+  border: 2px solid red;
+}
+
+/*Vertical Top div container/ Image div sub container-1/Thumbnail Image*/
+.video-thumbnail{
+  width: 240px
+}
+
+/*vertical-videoInfo-container-2*/
+
+.videoInfo-container{
+  width: 250px;
+  height: 250px;
+  border: 2px solid red;
+}
+
+/*vertical-videoInfo-container-2/horizontal-profile-picture container*/
+
+.horizontal-profile-picture {
+  width: 25px;
+  height: 75px;
+  border: 2px solid rgb(17, 0, 255);
+  display: inline-block;
+}
+
+.horizontal-para {
+  width: 190px;
+  height: 75px;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+/*.channel-profile-picture {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}*/
+
 
