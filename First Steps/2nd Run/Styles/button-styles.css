@@ -81,6 +81,7 @@
   font-size: 12px;
   transition: padding 0.5s ease; /* Transition for padding */
   border: none; /* Remove the border */
+
 }
 
 .text-shadow-button {
@@ -88,7 +89,8 @@
   color: white;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   border: none;
-  padding: 15px 25px; /* Padding values using shorthand */
+  width: 100%;
+  height:100%; /* Padding values using shorthand */
   transition: margin 0.2s ease; /* Transition for margin */
 }
 
@@ -143,17 +145,29 @@
   border: none; /* Remove the border on hover */
 }
 
-.text-shadow-button:active {
-  background-color: green;
-  color: white;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  border: none;
-  padding: 15px 25px; /* Padding values using shorthand */
-  margin: 2px 2px; /* Margin values on active state */
-}
+
 /*Active Classes*/
 .subscribeButton:active {
   background-color: #f5223449;  
 }
 
+.text-shadow-button:active {
+  background-color: green;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border: none;
+ padding:10px 25px ;/* Padding values using shorthand */
+  margin: 2px 2px; /* Margin values on active state */
+}
 
+/*div Classes*/
+.stretch-button-container,
+.text-shadow-button-container {
+  width: 168px;
+  height: 50px;
+  display: inline-block;
+  background-color: whitesmoke;
+  border: none;
+  vertical-align: top;
+  object-position: center;
+}
