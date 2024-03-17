@@ -1,20 +1,79 @@
 
 .master-div{
-  display: grid;
-  grid-template-columns: 50px 1fr 75px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+  height: 350px;
+  background-color: rgb(127, 122, 196);
+  padding:2px;
 }
+
+
 
 .div1 {
   background-color: rgb(233, 93, 93);
-  height: 200px;
+  height: 170px;
+  }
+
+/*div-1 Elements*/
+.profile-picture-container {
+  height: 65%;
+  /*width: 100%;*/ 
+  /*border: 2px solid black;*/
+}
+/*Image sizing css*/
+.profile-picture {
+  height: 100%;
+  width: 100%;
+}
+/*End of profile picture container*/
+
+/*profile-name*/
+.profile-name{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ font-size: 15px;
+ margin-top: 2px; 
 }
 
+/*Mutual Friends Container*/
+
+.mutual-friends-container{
+  display: grid;
+  height: 20px;
+  grid-template-columns: 13px 1fr; 
+  column-gap: 5px; 
+  /*margin-top: ;*/
+align-items: center;
+
+}
+    .mutual-friends-pic{
+      border-radius: 40%;
+      width: 100%;
+      /*border: 2px solid black;*/
+    }
+
+    .mutual-friends-info{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 12px; 
+    }
+    
 .div2 {
-  background-color: rgb(105, 105, 201);
-  height: 200 px;
+  background-color: rgb(23, 23, 223);
+  border: 2px solid black;/**/
+ 
 }
 
 .div3 {
   background-color: rgb(128, 214, 128);
-  height: 200px;
+  
 }
+
+.div4 {
+  background-color: rgb(184, 230, 18);  
+}
+
+
+/*End of Master-div elements*/
