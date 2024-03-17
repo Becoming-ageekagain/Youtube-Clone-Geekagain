@@ -1,0 +1,20 @@
+
+.master-div{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.div1 {
+  background-color: rgb(233, 93, 93);
+  height: 200px;
+}
+
+.div2 {
+  background-color: rgb(105, 105, 201);
+  height: 200 px;
+}
+
+.div3 {
+  background-color: rgb(128, 214, 128);
+  height: 200px;
+}
