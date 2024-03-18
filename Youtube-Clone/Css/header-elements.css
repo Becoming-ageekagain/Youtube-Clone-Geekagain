@@ -1,0 +1,17 @@
+.left-section {
+  background-color: #e71717;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.center-section {
+  background-color: #4ed34e;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.right-section {
+  background-color: #6161d8;
+  width: 200px;
+  border: 1px solid black;
+}
