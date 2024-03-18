@@ -4,14 +4,40 @@
   border: 1px solid black;
 }
 
-.center-section {
-  background-color: #4ed34e;
-  flex: 1;
-  border: 1px solid black;
-}
+.center-section-container {
+  display:flex;
+  flex-direction: row;
+  flex:1;
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px; 
+  }
 
-.right-section {
-  background-color: #6161d8;
-  width: 200px;
-  border: 1px solid black;
-}
+  .search-input-container{
+    height:30px;
+    border: 1px solid black;/**/
+    display:flex;
+    flex-direction: row;
+    flex: 1;  
+  }
+
+  .input-field{
+    
+    background-color: white;
+    border: none;
+  }
+
+  .button-image{
+    width: 30px;
+    /*border: 1px solid black;*/
+    background-color: white;
+    cursor: pointer;
+  }
+
+
+  .right-section{
+    background-color: yellow;
+    width: 200px;
+  }
+
