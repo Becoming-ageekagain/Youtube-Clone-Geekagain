@@ -1,7 +1,8 @@
 .header-section-container {
+  height: 56px;
   display: flex;
-  flex-direction:row;
-  height: 70px;
   border: 1px solid black;
-  margin-bottom: 2px;
+  /*justify-content:;*/
+  align-items: center;
+ 
 }
