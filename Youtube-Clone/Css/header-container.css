@@ -1,8 +1,8 @@
 .header-section-container {
   height: 56px;
   display: flex;
-  border: 1px solid black;
-  /*justify-content:;*/
+  /*border: 1px solid black;*/
+  justify-content:space-between;/**/
   align-items: center;
  
 }
