@@ -1,0 +1,14 @@
+.second-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.nested-div {
+  height: 100px; /* Adjust height as needed */
+  background-color: lightblue; /* Set default background color */
+}
+
+.nested-div:nth-child(even) {
+  height: 100px;
+  background-color: lightcoral; /* Set background color for even numbered divs */
+}
