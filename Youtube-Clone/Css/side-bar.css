@@ -1,0 +1,13 @@
+.page-content {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  border: 1px solid black;
+}
+
+
+
+.side-bar-container {
+  /*width: 60px;*
+  height: 800px;/**/
+  border: 1px solid black;
+}
